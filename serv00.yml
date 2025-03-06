@@ -16,9 +16,8 @@ jobs:
     # 注意[]"",:这些符号不要乱删，按规律对齐
     # 每行一个{serv00服务器}，一个服务也可，末尾用,间隔，最后一个服务器末尾无需用,间隔
       ACCOUNTS: >
-        [
-        {"RES":"n", "REP":"n", "SSH_USER":"你的serv00账号名", "SSH_PASS":"你的serv00账号密码", "REALITY":"你serv00账号名.serv00.net", "SUUID":"自设UUID", "TCP1_PORT":"vless的tcp端口", "TCP2_PORT":"vmess的tcp端口", "UDP_PORT":"hy2的udp端口", "HOST":"s1.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""},
-        {"RES":"y", "REP":"y", "SSH_USER":"123456", "SSH_PASS":"7890000", "REALITY":"time.is", "SUUID":"73203ee6-b3fa-4a3d-b5df-6bb2f55073ad", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s16.serv00.com", "ARGO_DOMAIN":"你的argo固定域名", "ARGO_AUTH":"eyJhIjoiOTM3YzFjYWI88552NTFiYTM4ZTY0ZDQzRmlNelF0TkRBd1pUQTRNVEJqTUdVeCJ9"} 
+         [
+        {"RES":"n", "SSH_USER":"noone", "SSH_PASS":"xS!BaJiRS8SesrUkKEJj", "REALITY":"noone.serv00.net", "SUUID":"68fbe11c-5d64-4dc3-84f1-5f02bdb2c94b", "TCP1_PORT":"1983", "TCP2_PORT":"1990", "UDP_PORT":"1983", "HOST":"panel0.serv00.com", "ARGO_DOMAIN":"sss.noone369.cloudns.ch", "ARGO_AUTH":"eyJhIjoiYzhhMmZjNzhkYWIzNmNjOTczYzI4ZDcyMTFlYzg4MTUiLCJ0IjoiZTRkYmQxNGYtYzMwMi00ZmQ5LWEyYWQtYzc1OGViMjYzZjA1IiwicyI6Ik9XSTRZamRsTkdJdE1UYzNaQzAwTlRaakxUaGpOemd0TkRaak9UTmxZelpoWTJKayJ9"}
         ]
     steps:
       - name: Checkout Repository
